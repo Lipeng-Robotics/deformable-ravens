@@ -11,7 +11,7 @@ set -uexo pipefail
 # To use --disp, run `sudo Xorg :1` in a persistent GNU screen session.
 
 echo "Installing Python libraries..."
-conda install ipython
+conda install ipython=7.1
 conda install tensorflow-gpu==2.2
 
 pip install pybullet==3.0.4
